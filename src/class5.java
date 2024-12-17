@@ -49,39 +49,100 @@ public class class5 {
 //        else{
 //            System.out.println("You can't watch YouTube");
 //        }
+// int a = 10;
+// int b  = 20;
+//        int weekDay = 6;
+//        switch (weekDay){
+//            case 1:
+//                System.out.println("Monday");
+//                break;
+//
+//            case 2:
+//                System.out.println("Tuesday");
+//                break;
+//
+//            case 3:
+//                System.out.println("Wednesday");
+//                break;
+//
+//            case 4:
+//                    System.out.println("Thursday");
+//                    break;
+//
+//            case 5:
+//                System.out.println("Friday");
+//                break;
+//
+//            case 6:
+//                System.out.println("Saturday");
+//                break;
+//
+//            case 7:
+//                System.out.println("Sunday");
+//                break;
+//
+//            default:
+//                System.out.println("Invalid weekday");
+//        }nt weekDay = 6;
+//        switch (weekDay){
+//            case 1:
+//                System.out.println("Monday");
+//                break;
+//
+//            case 2:
+//                System.out.println("Tuesday");
+//                break;
+//
+//            case 3:
+//                System.out.println("Wednesday");
+//                break;
+//
+//            case 4:
+//                    System.out.println("Thursday");
+//                    break;
+//
+//            case 5:
+//                System.out.println("Friday");
+//                break;
+//
+//            case 6:
+//                System.out.println("Saturday");
+//                break;
+//
+//            case 7:
+//                System.out.println("Sunday");
+//                break;
+//
+//            default:
+//                System.out.println("Invalid weekday");
+//        }
 
-        int weekDay = 6;
-        switch (weekDay){
-            case 1:
-                System.out.println("Monday");
+
+        int value1 = 1;
+        int value2 = 0;
+        char ope = '*';
+
+        int result = 0;
+        switch(ope){
+            case '+':
+                result = value1 + value2;
                 break;
-
-            case 2:
-                System.out.println("Tuesday");
+            case '-':
+                result = value1 - value2;
                 break;
-
-            case 3:
-                System.out.println("Wednesday");
+            case '*':
+                result = value1 * value2;
                 break;
-
-            case 4:
-                    System.out.println("Thursday");
-                    break;
-
-            case 5:
-                System.out.println("Friday");
+            case '/':
+                 if(value2  == 0){
+                     System.out.println("Error: Division by zero");
+                     break;
+                 }
+                 result = value1 / value2;
                 break;
-
-            case 6:
-                System.out.println("Saturday");
-                break;
-
-            case 7:
-                System.out.println("Sunday");
-                break;
-
             default:
-                System.out.println("Invalid weekday");
+                System.out.println("Invalid operator");
         }
+        System.out.println("Result: " + result);
     }
 }
