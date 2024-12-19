@@ -24,10 +24,26 @@ public class Class6 {
 //        }
 //        2*1 = 2
 //        2*2 = 4
-        System.out.println("Enter your table Number :  ");
-        int tableNumber = sc.nextInt();
-        for(int i = 1; i <=10; i++){
-            System.out.println( tableNumber +" * "+ i +" = "+  i*tableNumber);
-        }
+//        System.out.println("Enter your table Number :  ");
+//        int tableNumber = sc.nextInt();
+//        for(int i = 1; i <=10; i++){
+//            System.out.println( tableNumber +" * "+ i +" = "+  i*tableNumber);
+//        }
+
+
+//        int i = 1;
+//        while (i <= 10){
+//            System.out.println(i);
+//            i++;
+//        }
+//        int i = 189;
+//           do{
+//       System.out.println(i);
+//
+//   } while (i <= 10);
+
+
+
+
     }
 }
