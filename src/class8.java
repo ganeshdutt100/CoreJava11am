@@ -12,14 +12,27 @@ public class class8 {
 //            System.out.println(a);
 //        }
 
-        int userValue  = Vardan.nextInt();
-        int fact = 1;
-        for(int i = 1; i <= userValue; i++){
-//            System.out.println(i);
-            fact = fact * i;
-//            System.out.println(fact);
+//        int userValue  = Vardan.nextInt();
+//        int fact = 1;
+//        for(int i = 1; i <= userValue; i++){
+////            System.out.println(i);
+//            fact = fact * i;
+////            System.out.println(fact);
+//
+//        }
+//        System.out.println(fact);
 
+        int x = Vardan.nextInt();
+        switch(x) {
+            case 1: System.out.println("One");
+            case 2: System.out.println("Two"); break;
+            case 3: System.out.println("Three"); break;
+            default: System.out.println("Default"); break;
         }
-        System.out.println(fact);
+ Vardan.close();
     }
 }
+//Question: What will be the output of the following code?
+//java
+
+//Answer:
