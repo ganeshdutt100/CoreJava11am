@@ -24,7 +24,6 @@ public class class9 {
                 System.out.print( number+" " );
                 number++;
             }
-
             System.out.println();
         }
     }
