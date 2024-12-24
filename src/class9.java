@@ -44,3 +44,4 @@ public class class9 {
         }
     }
 }
+//Program to Print Hourglass Pattern in Java
