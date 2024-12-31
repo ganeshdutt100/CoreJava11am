@@ -6,4 +6,8 @@ public class class18 {
     public int Mul(int a , int b){
         return a*b;
     }
+
+    public int Sum(int a , int b){
+    return a+b;
+    }
 }
