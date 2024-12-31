@@ -3,7 +3,7 @@ public class class17 {
         class18 obj1 = new class18();  // Object
       obj1.printNumber(12);
 
-      int sumMethod = obj1.Mul(12,67);
+      int sumMethod = obj1.Mul(0,67);
         System.out.println(sumMethod);
     }
 
