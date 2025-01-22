@@ -1,0 +1,37 @@
+package oops.Questions;
+ class Author{
+     String name;
+     int age;
+     Author(String name, int age){
+         this.name = name;
+         this.age = age;
+     }
+     void display(){
+         System.out.println("Name : " + name);
+         System.out.println("Age : " + age);
+     }
+ }
+
+ class Book{
+     String title;
+     double price;
+     Author author;
+
+     Book(String title, double price, Author author) {
+         this.title = title;
+         this.price = price;
+         this.author = author;
+     }
+     void display() {
+         System.out.println("Book Title: " + title);
+         System.out.println("Price: " + price);
+         author.display();
+     }
+ }
+public class Question6 {
+    public static void main(String[] args) {
+        Author author = new Author("J.K. Rowling", 55);
+        Book book = new Book("Harry Potter", 499.99, author);
+        book.display();
+    }
+}
