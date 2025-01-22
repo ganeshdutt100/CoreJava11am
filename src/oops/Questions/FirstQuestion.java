@@ -1,3 +1,10 @@
+
+
+//1. Inheritance and Method Overriding
+//Create a class Vehicle with a method start().
+//
+//Create subclasses Car, Bike, and Truck that override the start() method.
+//Use a for loop to iterate over an array of Vehicle objects and call start().
 package oops.Questions;
  class Vehicle{
      void start(){
