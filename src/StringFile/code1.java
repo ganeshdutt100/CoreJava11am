@@ -20,12 +20,21 @@ public class code1 {
 //        System.out.println(str.endsWith("Nautiyal"));
 //        System.out.println(str.replace("Ayush","Vardan"));
 
+//
+//        String[] str = "Ayush , Nautiyal , Vardan , kaushik";
+        String [] str3 = {"Ayush" , "Nautiyal" , "Vardan" , "kaushik"};
+        String output = String.join(" , ",str3);
+        System.out.println(output);
+//        boolean ContainsWords = str.contains("Vardan");
+//        System.out.println(ContainsWords);
 
-        String str = "Ayush , Nautiyal , Vardan , kaushik";
-        String[] output = str.split(",");
-        for(String x : output){
-            System.out.println(x);
-        }
+//        String emptyString = " ";
+//        System.out.println(emptyString.isEmpty());
+
+//        String[] output = str.split(",");
+//        for(String x : output){
+//            System.out.println(x);
+//        }
 //        System.out.println(output);
 //        String output = str.trim();
 //        System.out.println(str.trim());
@@ -37,3 +46,4 @@ public class code1 {
     }
     }
 
+//String Vardan  = "Vardan ka dimak kharab ho gya hain ";
